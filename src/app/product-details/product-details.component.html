@@ -1,0 +1,14 @@
+<mat-card-title>Detalhes do Produto</mat-card-title><br>
+<div class="container">
+    <div class="info">
+        <h3>ID: {{product.id}}</h3>
+        <h3>Nome: {{product.name}}</h3>
+        <h3>Unidades: {{product.units}}</h3>
+        <h3>Descrição: {{product.description || 'Sem descrição'}}</h3>
+    </div>
+    <div class="image-container">
+        <img src="{{product.img || '../../assets/images/image-not-found.jpg'}}" class="image">
+    </div>
+    <button mat-stroked-button color="primary" routerLink="/products" class="button">Voltar</button>
+    <button mat-stroked-button color="primary" class="button">Alterar</button>
+</div>

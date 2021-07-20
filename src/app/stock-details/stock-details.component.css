@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .info {
+    width: 100%;
+}
+.container .button {
+    margin: 0px 5px;
+}
